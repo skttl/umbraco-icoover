@@ -9,8 +9,8 @@
   <PropertyGroup>
     <Product>Umbraco.Community.Icoover</Product>
     <PackageId>Umbraco.Community.Icoover</PackageId>
-    <Title>Icoover </Title>
-    <Description>...</Description>
+    <Title>Icoover</Title>
+    <Description>Automatically import svg icons from disk into Umbraco</Description>
     <PackageTags>umbraco;umbraco-marketplace</PackageTags>
     <Authors>Søren Kottal</Authors>
     <Copyright>$([System.DateTime]::UtcNow.ToString(`yyyy`)) © Søren Kottal</Copyright>
@@ -19,7 +19,7 @@
     <PackageReadmeFile>README_nuget.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageIcon></PackageIcon>
+    <PackageIcon>icoover.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,14 +28,18 @@
     <PackageReference Include="Umbraco.Cms.Api.Common" Version="*" />
     <PackageReference Include="Umbraco.Cms.Api.Management" Version="*" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <None Include="..\..\docs\README_nuget.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+    <None Include="..\..\docs\icoover.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
-  
+
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
