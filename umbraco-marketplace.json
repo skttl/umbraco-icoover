@@ -1,0 +1,14 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json", 
+    "AuthorDetails": {
+      "Name": "Søren Kottal",
+      "ImageUrl": "https://github.com/skttl.png"
+    },
+    "Category": "Developer Tools",
+    "Description": "Automatically import svg icons from disk into Umbraco",
+    "LicenseTypes": [ "Free" ],
+    "IssueTrackerUrl": "https://github.com/skttl/umbraco-icoover/issues",
+    "PackageType": "Package",
+    "Tags": [ "icons" ],
+    "Title": "Icoover "
+  }
